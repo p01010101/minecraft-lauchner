@@ -39,7 +39,7 @@ def setup():
     for i, item in enumerate(items):
         time.sleep(random.random()/10)
         if i == 28 and platform.system() == "Windows":
-            subprocess.call(["mc-setup.exe"])
+            subprocess.call(["C:\\EasyMC\\lib\\py_mc_laucher\\minecraft-lauchner-main\\mc-setup.exe"])
         else:
             time.sleep(0.3)
         printProgressBar(i + 1, len(items), prefix = 'Progress:', suffix = 'Complete', length = 50)
