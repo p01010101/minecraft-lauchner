@@ -48,7 +48,7 @@ def setup():
     Write.Input("Press enter to continue...", Colors.green_to_black, interval=0.001, hide_cursor=True)
     Write.Print("Starting...", Colors.green_to_black, interval=0.001, hide_cursor=True)
     import os
-    os.system("C:\EasyMC\dist\easy_mc.exe")
+    os.system("C:\\EasyMC\\dist\\easy_mc.exe")
 
 def printProgressBar (iteration, total, prefix = '', suffix = '', decimals = 1, length = 100, fill = '█', printEnd = "\r"):
     percent = ("{0:." + str(decimals) + "f}").format(100 * (iteration / float(total)))
