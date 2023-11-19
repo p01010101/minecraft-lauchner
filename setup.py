@@ -58,3 +58,5 @@ def printProgressBar (iteration, total, prefix = '', suffix = '', decimals = 1, 
     if iteration == total: 
         print()
 
+if __name__ == "__main__":
+    setup()
